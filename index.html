@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UFT-8">
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	
+
+</head>
+
+	<body>
+		<div class="headcontainer">
+
+			<div class="jumbotron">
+			    <h1>Hangman</h1>
+			    <p>Press any key to play</p>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Word to guess</h3>
+				</div>
+				<div class="panel-body">
+					<h2 id="wordtoguess">_ _ _ _ _ _ _</h2>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-body">
+					wrong guesses: <span id="wrongguesses"></span>
+				</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-body">
+					guesses left: <span id="numguesses">9</span>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-body">
+					win counter: <span id="wincounter">o</span>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-body">
+					loss counter: <span id="losscounter">0</span>
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/javascript/game.js"></script>
+	</body>
+	</html>
