@@ -15,4 +15,4 @@ Use key events to listen for the letters that your players will type.
 
   * Letters Already Guessed: (Letters the user has guessed, displayed like `L Z Y H`).
 
-5. After the user wins/loses the game should automatically choose another word and make the user play it.
+ After the user wins/loses the game should automatically choose another word and make the user play it.
